@@ -1,0 +1,6 @@
+This tictactoe is coded without the use rooms in socket.io thats why more than 2 people can join and hinder the game.
+
+Also since there is no way to restrict players ,similarly there is no way to restrict who plays whose turn without rooms.(i currently dont know)
+
+If you know any solution without use of rooms ,email me at 
+piyushgargofficial@gmail.com

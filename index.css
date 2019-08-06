@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Coiny", cursive;
+}
+
+body {
+  background: orange;
+  text-align: center;
+}
+
+.heading {
+  font-weight: bold;
+  letter-spacing: 8px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.gameboard {
+  margin-top: 50px;
+}
+
+.col {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  align-content: center;
+  background: white;
+  margin-top: 2px;
+  font-size: 40px;
+  padding-top: 10px;
+}
+.col:hover {
+  background: lightblue;
+}
+
+.endgame {
+  display: none;
+  width: 150px;
+  top: 300px;
+  background-color: rgba(205, 133, 63, 0.8);
+  position: absolute;
+  left: 52%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+
+#restart {
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 20px;
+}
